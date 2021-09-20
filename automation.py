@@ -4,6 +4,8 @@ import dropbox
 
 start_time = time.time()
 
+print("WELCOME TO AUTOMATIC FACE RECOGNITION SOFTWARE PLEASE FOLLOW THE INSTRUCTIONS")
+
 def take_Snapshot():
     print("SMILE FOR THE CAMERA")
     video_capture = cv2.VideoCapture(0)
